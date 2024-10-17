@@ -48,5 +48,9 @@ fun BasicLayout(modifier: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-    )
+    ){
+        Text(text = "login",
+            style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold)
+        )
+    }
 }
