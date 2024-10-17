@@ -69,5 +69,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
             modifier = Modifier
                 .padding(top = 20.dp)
                 .size(size = 300.dp)
+                .clip(RoundedCornerShape(30.dp)
+                ))
     }
 }
