@@ -60,6 +60,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
                 .size(size = 250.dp))
         Text(text = "Nama",
             style = TextStyle(fontSize = 20.sp))
-        Text(text = "Ahmad Kevin Zain",)
+        Text(text = "Ahmad Kevin Zain",
+            style = TextStyle(fontSize =15.sp, color = Color.Red))
     }
 }
