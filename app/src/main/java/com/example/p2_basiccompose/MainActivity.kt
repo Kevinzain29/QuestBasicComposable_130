@@ -62,5 +62,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
             style = TextStyle(fontSize = 20.sp))
         Text(text = "Ahmad Kevin Zain",
             style = TextStyle(fontSize =15.sp, color = Color.Red))
+        Text(text = "20220140130",
+            style = TextStyle(fontSize = 35.sp))
     }
 }
