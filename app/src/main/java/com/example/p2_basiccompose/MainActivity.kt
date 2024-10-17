@@ -43,4 +43,8 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicLayout(modifier: Modifier = Modifier)
+fun BasicLayout(modifier: Modifier = Modifier){
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+    )
+}
