@@ -57,5 +57,6 @@ fun BasicLayout(modifier: Modifier = Modifier){
             contentDescription = null,
             modifier = Modifier
                 .padding(top=20.dp, bottom = 20.dp)
+                .size(size = 250.dp))
     }
 }
